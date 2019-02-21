@@ -1,3 +1,13 @@
+*{
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.brn-pod{
+	font-size: 13px
+}
+#subtitle{
+	font-weight: 100;
+	letter-spacing: 2px;
+}
 h3 {
     color: #1B75BB;    
 }
@@ -7,5 +17,5 @@ span {
 }
 
 p {
-    color: #58585B;
+    color: #57575b;
 }
