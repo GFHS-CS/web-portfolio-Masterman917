@@ -18,5 +18,5 @@ var h2 = document.getElementById("starter"),
 	count = 1;
 h2.onclick="Myfunction()" {
 	count += 1000;
-	button.innerHTML = count;
+	h2.innerHTML = count;
 };
