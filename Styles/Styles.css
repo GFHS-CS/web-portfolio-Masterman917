@@ -45,35 +45,29 @@ nav ul li{
 	padding: 3px;
 	display: inline-block;
 	border-radius: 100px;
+	border: 2px solid white;
 }
 
 header{
-	position: absolute;
+	position: fixed;
 	top: -0px;
 	left: 0px;
 	width: 100%;
 	background-image: linear-gradient(black, #101f34);
-}
-
-p:hover {
-	background-color: black;
-	color: white;
-}
-
-.paragraph{
-	background-color:white;
-	color: black; 
-	font-size: 25px
+	z-index: 1;
 }
 
 h2{
+	display: flex;
+	position: relative;
 	font-size: 50px;
 	text-align: center;
-}
-
-li:hover{
-	color: white;
+	padding-left: 1em;
+	border: 2px solid white;
+	border-radius: 25px;
 	background-color: black;
+	width:35%;
+	right: -295px;
 }
 
 h3 li{
@@ -150,4 +144,8 @@ h3 li{
 	z-index: 2;
 	position: relative; 
 	cursor: pointer;
+}
+
+li ul a{
+	text-decoration: none;	
 }
