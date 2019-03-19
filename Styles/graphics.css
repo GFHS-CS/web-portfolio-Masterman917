@@ -7,24 +7,6 @@ a{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
-
-main{
-	clear: both;
-	margin: auto;
-	width: 80%;
-	position: relative;
-	top: 140px;
-}
-
-main p::first-letter{
-	font-size: 40px;
-	font-style: italic
-}
-
-main p{
-	font-size: 25px;
-}
-
 nav{
 	padding-left: 19.5em
 }
@@ -39,24 +21,6 @@ nav ul li{
 	margin-right: 0.5em;
 }
 
-.button {
-	background-image: linear-gradient(black, #101f34);
-	position: relative;
-	padding: 3px;
-	display: inline-block;
-	border-radius: 100px;
-	border: 2px solid white;
-}
-
-.button2 {
-	background-image: linear-gradient(black, #101f34);
-	position: relative;
-	padding: 3px;
-	display: inline-block;
-	border-radius: 30px;
-	border: 2px solid white;
-}
-
 header{
 	position: fixed;
 	top: -0px;
@@ -64,20 +28,6 @@ header{
 	width: 80%;
 	background-image: linear-gradient(black, #101f34);
 	z-index: 1;
-}
-
-
-h2{
-	display: flex;
-	position: relative;
-	font-size: 50px;
-	text-align: center;
-	padding-left: 1em;
-	border: 2px solid white;
-	border-radius: 25px;
-	background-color: black;
-	width:35%;
-	right: -295px;
 }
 
 h3 li{
