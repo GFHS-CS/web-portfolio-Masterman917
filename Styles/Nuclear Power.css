@@ -1,0 +1,59 @@
+/*Centers tables*/
+.table {
+	margin:auto;
+	width: 50%
+}
+/*make the text for th bigger*/
+th{
+	text-align: center; 
+	font-size: 20px; 
+	border-right: solid #7e7e7e;
+}
+/*Make h3 tags have the first letter such as 1 have a circle*/
+h3::first-letter{
+	font-size: 30px;
+	background-color: #5c5c5c;
+	color: #ff6200;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	border-radius: 100%;
+}
+/*Make the main container not so big*/
+.container{
+	border-radius: 3px;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+/*Make a line under the top of the page title*/
+#title{
+	border-bottom: solid;
+	border-radius: 15px;
+	margin-left: 5em;
+	margin-right:5em;
+}
+
+.underline{
+	border-bottom: solid;
+	border-radius: 15px;
+	margin-left: 5em;
+	margin-right:5em;
+	color: #fff500;
+}
+/*Make images not have sharp edges*/
+img{
+	border-radius: 15px;
+}
+
+.container{
+	background-color: #343434;
+	color: #be6600;
+}
+
+.jumbotron{
+	background-color: #343434;
+	color: #fff500;
+}
+
+.text-danger{
+	color: #ff7600;
+}

@@ -39,14 +39,6 @@ nav ul li{
 	margin-right: 0.5em;
 }
 
-.button {
-	background-image: linear-gradient(black, #101f34);
-	position: relative;
-	padding: 3px;
-	display: inline-block;
-	border-radius: 100px;
-	border: 2px solid white;
-}
 
 .button2 {
 	background-image: linear-gradient(black, #101f34);
@@ -66,18 +58,21 @@ header{
 	z-index: 1;
 }
 
+.button {
+	background-image: linear-gradient(black, #101f34);
+	position: relative;
+	padding: 3px;
+	display: inline-block;
+	border-radius: 50px;
+	border: 2px solid white;
+}
 
 h2{
-	display: flex;
-	position: relative;
 	font-size: 50px;
 	text-align: center;
-	padding-left: 1em;
 	border: 2px solid white;
-	border-radius: 25px;
+	border-radius: 15px;
 	background-color: black;
-	width:35%;
-	right: -295px;
 }
 
 h3 li{
@@ -88,7 +83,8 @@ h3 li{
 	border: 2px solid black; 
 	border-color: white; 
 	font-size: 20px; 
-	border-radius: 10px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .Othermenus{                    

@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+	<head>
+
+		<style>
+			.background{
+				background-image: url("../Images/milky-way-2695569_1920.jpg")
+			}
+		</style>
+
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="../Styles/Styles.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
+		<script src="main.js"></script>
+	</head>
+	<body class="background">
+
+		<header>
+			<h1 style="padding-left: 0em; color: red">CHARLE'S WEB PARTFOLIO</h1>
+			<nav>
+				<ul>
+					<h3>
+						<li class="Mainworkdropdown"><span>Main Work &#9662;</span>
+							<ul class="Mainworkmenus">
+								<li><a href="../index.html">Home</a></li>
+								<li><a href="../recipe.html">Recipe</a></li>
+								<li><a href="../Table.html">Table</a></li>
+								<li><a href="../Letter.html">Contact</a></li>
+								<li><a href="../assess_css.html">Assess the CSS</a></li>
+								<li><a href="../graphics.html">Web Graphics</a></li>
+							</ul>
+						<li class="dropdown"><span>Other &#9662;</span>
+							<ul class="Othermenus">
+								<li><a href="../menu.html">Menu</a></li>
+								<li><a href="../flexboxes.html">Flexboxes</a></li>
+								<li><a href="../Floats.html">floats</a></li>
+								<li><a href="../school.html">school</a></li>
+								<li><a href="../Atom%20project.html">Atom_Project</a></li>
+							</ul>
+							<br>
+					</h3>
+				</ul>
+			</nav>
+		</header>
+		<br>  <br>  <br>  <br>  <br>  <br>  <br>
+		<div id="palette" style="margin: auto; padding-left: 1em; padding-right: 1em;" class="button2">
+			<div class="pen" style="background-color:lightcoral;" onclick="setPenColour('lightcoral')"></div>
+			<div class="pen" style="background-color:red;" onclick="setPenColour('red')"></div>
+			<div class="pen" style="background-color:darkred;" onclick="setPenColour('darkred')"></div>
+			<div class="pen" style="background-color:brown;" onclick="setPenColour('brown')"></div>
+			<div class="pen" style="background-color:sandybrown;" onclick="setPenColour('sandybrown')"></div>
+			<div class="pen" style="background-color:saddlebrown;" onclick="setPenColour('saddlebrown')"></div>
+			<div class="pen" style="background-color:orangered;" onclick="setPenColour('orangered')"></div>
+			<div class="pen" style="background-color:orange;" onclick="setPenColour('orange')"></div>
+			<div class="pen" style="background-color:darkorange;" onclick="setPenColour('darkorange')"></div>
+			<div class="pen" style="background-color:yellow;" onclick="setPenColour('yellow')"></div>
+			<div class="pen" style="background-color:greenyellow;" onclick="setPenColour('greenyellow')"></div>
+			<div class="pen" style="background-color:yellowgreen;" onclick="setPenColour('yellowgreen')"></div><br>
+			<div class="pen" style="background-color:lightgreen;" onclick="setPenColour('lightgreen')"></div>
+			<div class="pen" style="background-color:green;" onclick="setPenColour('green')"></div>
+			<div class="pen" style="background-color:darkgreen;" onclick="setPenColour('darkgreen')"></div>
+			<div class="pen" style="background-color:cyan;" onclick="setPenColour('cyan')"></div>
+			<div class="pen" style="background-color:lightblue;" onclick="setPenColour('lightblue')"></div>
+			<div class="pen" style="background-color:blue;" onclick="setPenColour('blue')"></div>
+			<div class="pen" style="background-color:darkblue;" onclick="setPenColour('darkblue')"></div>
+			<div class="pen" style="background-color:mediumpurple;" onclick="setPenColour('mediumpurple')"></div>
+			<div class="pen" style="background-color:rebeccapurple;" onclick="setPenColour('rebeccapurple')"></div>
+			<div class="pen" style="background-color:purple;" onclick="setPenColour('purple')"></div>
+			<div class="pen" style="background-color:darkmagenta;" onclick="setPenColour('darkmagenta')"></div>
+			<div class="pen" style="background-color:magenta;" onclick="setPenColour('magenta')"></div><br>
+			<div class="pen" style="background-color:deeppink;" onclick="setPenColour('deeppink')"></div>
+			<div class="pen" style="background-color:hotpink;" onclick="setPenColour('hotpink')"></div>
+			<div class="pen" style="background-color:lightpink;" onclick="setPenColour('lightpink')"></div>
+			<div class="pen" style="background-color:pink;" onclick="setPenColour('magenta')"></div>
+			<div class="pen" style="background-color:white;"  onclick="setPenColour('white')"></div>
+			<div class="pen" style="background-color:darkgrey;" onclick="setPenColour('darkgrey')"></div>
+			<div class="pen" style="background-color:grey;" onclick="setPenColour('grey')"></div>
+			<div class="pen" style="background-color:dimgrey;" onclick="setPenColour('dimgrey')"></div>
+			<div class="pen" style="background-color:black;"  onclick="setPenColour('black')"></div>
+		</div>
+		<div id="art" style="margin: auto; border:solid white 4px; padding: 0.5em" class="button2">
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+			<div class="row">
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+				<div class="pixel" onmousedown ="setPixelColour(this)" ></div>
+			</div>
+		</div>
+	</body>
+</html>
